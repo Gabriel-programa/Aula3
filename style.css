@@ -1,9 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  color: #202124;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 15px;
+  padding: 6px 14px;
+}
 h1{
     text-align: center;
+    color: red;
 }
+
 p{
     text-align: left;
+    font-size: 120%;
 }
-img{
+
+.logo-google{
   height: 80px;
+}
+
+a{
+  color: black;
+  font-size: 120%;
+  text-decoration: none;
+}
+.apps{
+height: 24px;
+fill: black;
+}
+button{
+  background-color: blue;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-family: google sans, roboto, helvetica, arial, sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  font-size: 14px;
+}
+footer{
+  background-color: rgb(236, 236, 236);
+}
+.caixa-links{
+  display: flex;
+  gap: 30px;
+}
+.link-cabecalho{
+  color: #000000;
+  font-size: 13px;
+}
+.caixa-icone{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+.caixa-rodape{
+display: flex;
+justify-content: space-between;
+padding: 15px 30px;
+}
+.caixa-rodape--borda{
+  border-bottom: 1px solid #dadce0;
 }
